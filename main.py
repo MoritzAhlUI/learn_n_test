@@ -6,6 +6,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
+from PIL import Image
 
 # Setup for Storytelling (matplotlib):
 plt.rcParams['font.family'] = 'monospace'

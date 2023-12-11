@@ -206,9 +206,10 @@ st.markdown(''' > **Reference indexes (inflation):**
 > Data based on public informs that accounts residential properties for 50 Brazilian cities (first quarter of 2023).
 ''')
 
-logo = Image.open("UI_Logo_RGB.png")  # Replace "path_to_your_logo_image" with the actual file path
+logo_path = "UI_Logo_RGB.png"  # Replace "path_to_your_logo_image" with the actual file path
+logo = open(logo_path, 'rb').read()
 
-st.sidebar.image(logo, use_column_width=True)  # Display the logo in the sidebar
+st.sidebar.image(logo, width=100)  # Display the logo in the sidebar with a width of 100 pixels
 
 # Authorship:
 st.markdown('Moritz Ahl - Union Investment Institutional GmbH')

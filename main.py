@@ -205,8 +205,12 @@ st.markdown(''' > **Reference indexes (inflation):**
 > Data based on public informs that accounts residential properties for 50 Brazilian cities (first quarter of 2023).
 ''')
 
+logo = Image.open("UI_Logo_RGB.png")  # Replace "path_to_your_logo_image" with the actual file path
+
+st.sidebar.image(logo, use_column_width=True)  # Display the logo in the sidebar
+
 # Authorship:
-st.markdown('---')
+st.markdown('Moritz Ahl - Union Investment Institutional GmbH')
 # here you can add the authorship and useful links (e.g., Linkedin, GitHub, and so forth)
 st.markdown('---')
 # --- (End of the App)
